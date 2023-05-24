@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Content</title>
+    <link rel="stylesheet" type="index/css" href="index.css" />
+  </head>
+
+  <body>
+    <header>Items Table</header>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Items</th>
+          <th>Wt (Edit if needed)</th>
+          <th>T Qty (Insert)</th>
+          <th>T Wt (Don't edit)</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Table content will be dynamically added here -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total:</th>
+          <th id="total-qty"></th>
+          <th id="total-weight"></th>
+          <th id="total-comments"></th>
+        </tr>
+        <tr>
+          <th colspan="2" id="default-fee">$240</th>
+          <th>Total WD Fee:</th>
+          <th id="total-fee"></th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
